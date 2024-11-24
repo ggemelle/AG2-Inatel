@@ -28,7 +28,7 @@ def main():
     while True:
         entrada = input("\nDigite os valores separados por vírgula (ou 'sair' para encerrar): ").strip()
         if entrada.lower() == 'sair':
-            print("Encerrando o programa. Até mais!")
+            print("Saindo!")
             break
         else:
             try:
@@ -40,3 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
